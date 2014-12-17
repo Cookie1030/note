@@ -8,11 +8,7 @@
   
   
   cd /usr/local/src
-  
   git clone https://github.com/netkiller/logging.git
-  
   cd logging
-  
   python3 setup.py sdist
-  
   python3 setup.py install --prefix=/srv/logging

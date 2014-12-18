@@ -11,3 +11,7 @@
   cd logging
   python3 setup.py sdist
   python3 setup.py install --prefix=/srv/logging
+  
+  cd /srv/logging/bin
+  ./collection
+  ./rlog
